@@ -51,7 +51,7 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	/* outline: 2px solid tomato; */
+	outline: 2px solid tomato;
 }
 
 .visually-hidden {
@@ -218,6 +218,10 @@ img {
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herofon.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .hero-title {
@@ -286,6 +290,18 @@ img {
 	letter-spacing: 0.03em;
 
 	max-width: 270px;
+}
+
+.features-icon {
+	width: 270px;
+	height: 120px;
+	background-color: var(--fourth-bgcolor);
+
+	margin-bottom: 30px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .features-title {
@@ -370,8 +386,74 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 
-	margin-bottom: 30px;
+	/* margin-bottom: 16px; */
 }
+.team-list-icon {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	/* margin-bottom: 30px; */
+	padding: 16px 32px 30px 32px;
+}
+.team-link-icon {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	/* background-color: darkcyan; */
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	fill: #afb1b8;
+}
+.team-link-icon:hover,
+.team-link-icon:focus {
+	fill: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+
+/* Section Clients */
+.clients {
+	background-color: var(--first-bgcolor);
+}
+
+.clients-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	margin-bottom: 50px;
+}
+.clients-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.clients-link {
+	width: 170px;
+	height: 92px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 32px;
+
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+
+	fill: #afb1b8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+	fill: var(--accent-color);
+	border: 1px solid var(--accent-color);
+}
+
 /* Main page Portfolio */
 
 .portfolio {
