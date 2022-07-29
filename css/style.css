@@ -51,7 +51,7 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	outline: 2px solid tomato;
+	/* outline: 2px solid tomato; */
 }
 
 .visually-hidden {
@@ -163,11 +163,6 @@ img {
 	margin-right: 10px;
 	fill: currentColor;
 }
-
-/* .header-mail::before {
-	content: "";
-	display: inline-block;
-} */
 
 .header-mail:hover,
 .header-mail:focus,
