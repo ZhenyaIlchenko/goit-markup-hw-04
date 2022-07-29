@@ -165,6 +165,10 @@ img {
 	fill: currentColor;
 }
 
+.icon-tel {
+	vertical-align: -2px;
+}
+
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
