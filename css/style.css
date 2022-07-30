@@ -220,10 +220,10 @@ img {
 
 .footer-info {
 	display: flex;
+	align-items: baseline;
 }
 
 .social {
-	margin-top: 12px;
 	margin-left: 70px;
 }
 
@@ -271,6 +271,10 @@ img {
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
+
+	max-width: 1600px;
+	margin: o auto;
+
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herofon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -445,7 +449,7 @@ img {
 	display: flex;
 	justify-content: center;
 	gap: 10px;
-	padding: 16px 32px 30px 32px;
+	margin: 16px 32px 30px 32px;
 }
 .team-link-icon {
 	width: 44px;
@@ -492,7 +496,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 16px 32px;
+	/* padding: 16px 32px; */
 
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
@@ -564,7 +568,8 @@ img {
 	display: block;
 }
 
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -582,6 +587,8 @@ img {
 	line-height: 1.87;
 
 	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
 }
 
 .portfolio-title-info {
